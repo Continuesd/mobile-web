@@ -1,0 +1,31 @@
+.shopCar_header{
+	height:3rem;
+	background:#fff;
+	font-size:1.4rem;
+	.carTitle{
+		@include span(4);
+		line-height:3rem;
+		.icon-shop-car{
+			margin-right:.5rem;
+		}
+
+	}
+	.editAll{
+		@include span(3);
+		float:right;
+		line-height:3rem;
+		margin-left:.5rem;
+		text-align:center;
+	}
+	.share{
+		@include span(1);
+		text-align:center;
+		float:right;
+		.icon-share{
+			font-size:2rem;
+			display:block;
+			line-height:3rem;
+		}
+	}
+	
+}

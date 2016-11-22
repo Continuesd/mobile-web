@@ -1,0 +1,35 @@
+
+// nav_footer
+#nav_footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:$container-fluid;
+	background:#3d2680;
+	z-index:100;
+	li{
+		height:4rem;
+		text-align:center;
+		@include span(3);
+		a{
+			 color:white;
+			 display:block;
+			 text-decoration:none;
+		   [class^="icon"]{
+			  display:block;
+			  font-size:2.8rem;
+			  padding-top:.3rem;
+			  height:2.5rem; 
+			}
+		   .bottom_text{
+			 display:block;
+			 height:1.5rem;
+			 font-size:1.2rem;
+		   }  
+		   &.active{
+			 color:#ffcc00;	 
+		   }
+		}
+		
+	}
+}

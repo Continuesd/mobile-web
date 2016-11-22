@@ -1,0 +1,66 @@
+//#search_input头部搜索框
+#search_input{
+	width:span(12);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100;	
+	.search_box{
+		margin:0 auto;
+		height:2.5rem;
+		width:span(10);
+		.place_change{
+			@include span(2);
+			background:#465fa8;
+			color:white;
+			border-top-left-radius:.5rem;
+			border-bottom-left-radius:.5rem;
+			span{
+				display:inline-block;
+				height:2.5rem;
+				vertical-align:middle;
+				&.place_icon{
+					width:0;
+					height:0;
+					cursor:pointer;
+					border-top:.8rem solid #fff;
+					border-right:.4rem solid  transparent ;
+					border-left:.4rem solid  transparent 
+				}
+				&.place_name{
+					line-height:2.5rem;
+					width:span(8);
+				}
+			}
+		}
+		.search_input{
+			@include span(8);
+			padding:0;		
+			input[name="search_input"]{
+				height:2.5rem;
+				width:span(12);
+				border:none;
+				outline:none;
+				background:#2e2262;
+				text-indent:1rem;
+				color:white;
+				font-size:1.4rem;
+			}
+		}
+		.search_btn_header{
+			@include span(2);
+			padding:0;
+			cursor:pointer;
+			button[name="search_btn"]{
+				height:2.5rem;
+				width:span(12);
+				outline:none;
+				border:none;
+				border-top-right-radius:.5rem;
+				border-bottom-right-radius:.5rem;
+				background:#465fa8;
+				color:white;
+			}
+		}
+	}
+}

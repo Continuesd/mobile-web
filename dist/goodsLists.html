@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="format-detection" content="telephone=no"/>
+
+	<link rel="apple-touch-icon-precompsed" href="images/*.jpg"/>
+	<link rel="apple-touch-startup-image" href="images*.jpg">
+
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/swiper.css"/>
+	<title>商品详情</title>
+</head>
+<body>
+<!-- 商品列表页搜索框 -->
+<header class="goods_search clearfix">
+	<div class="search_top clearfix">
+		<div class="back_btn"><a href="index.html"><span class="icon-back"></span></a></div>
+		<div class="search_input"><input type="text" name="search_text" placeholder="请输入商品名称"/></div>
+		<div class="search_btn"><span class="icon-search"></span></div>
+		<div class="search_change"><span class="icon-list2"></span></div>
+	</div>
+	<div class="search_bottom ">
+		<ul class="clearfix">
+			<li class="orderBy order_li">综合<span></span></li>
+			<li class="orderBy order_li">销量<span></span></li>
+			<li class="orderBy order_li">信誉<span></span></li>
+			<li class="filter order_li">筛选
+				<div class="filterContent">
+					<h3 class="priceTitle">价格</h3>
+					<div class="price_content">
+						<span class="priceRange">价格区间</span><input type="text" name="smallVal" placeholder="最低价"> 至 <input type="text" name="bigVal" placeholder="最高价">
+						<ul class="userChoice clearfix">
+							<li class="choiceList">
+								<div class="choiceRange">13-25</div>
+								<div class="choiceNum">34%用户</div>
+							</li>
+							<li class="choiceList">
+								<div class="choiceRange">25-100</div>
+								<div class="choiceNum">37%用户</div>
+							</li>
+							<li class="choiceList">
+								<div class="choiceRange">&gt;100</div>
+								<div class="choiceNum">29%用户</div>
+							</li>
+							
+						</ul>
+					</div>
+					<h3 class="brandTitle">品牌</h3>
+					<div class="brand_content">
+						<ul class="brandList clearfix">
+							<li><img src="images/brand/haojia.png" alt="上好佳"></li>
+							<li><img src="images/brand/baishi.png" alt="百事"></li>
+							<li><img src="images/brand/jinpeng.png" alt="金鹏"></li>
+							<li><img src="images/brand/meimei.png" alt="张君雅小妹妹"></li>
+							<li><img src="images/brand/xiangzai.png" alt="巷仔边"></li>
+							<li><img src="images/brand/puzi.png" alt="良品铺子"></li>
+							<li><img src="images/brand/huangguang.png" alt="皇冠"></li>
+							<li><img src="images/brand/friend.png" alt="好朋友"></li>
+							<li><img src="images/brand/songshu.png" alt="松鼠"></li>
+							<li><img src="images/brand/dove.png" alt="德芙"></li>
+							<li><img src="images/brand/mengxi.png" alt="蒙熙"></li>
+							<li><img src="images/brand/haitai.png" alt="海太"></li>
+						</ul>
+					</div>
+					<div class="filter_opt">
+						<span class="reset">重置</span><span class="ok">完成</span>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</header>
+
+<section id="goodsLists">
+	<ul class="goodsLists clearfix ">
+		<li class="span-12 span-6">
+			<ul class="ul_inner clearfix">
+				<li class="li_inner"><a href="">产地1</a></li>
+				<li class="li_inner"><a href="">产地2</a></li>
+				<li class="li_inner"><a href="">产地3</a></li>
+				<li class="li_inner"><a href="">产地4</a></li>
+			</ul>
+			<ul  class="ul_inner clearfix">
+				<li class="li_inner"><a href="">产地5</a></li>
+				<li class="li_inner"><a href="">产地6</a></li>
+				<li class="li_inner"><a href="">产地7</a></li>
+				<li class="li_inner"><a href="">产地8</a></li>
+			</ul>
+		</li>
+		<li class="span-12 span-6">
+			<a href="" class="">
+				<figure class="figure_content clearfix">
+					<div class="canvasImg"><canvas data-src="images/goods2.png"></canvas></div>
+					<figcaption>
+						<h3>[天猫市]巷仔香脆海虾，即开即食用,休闲零食</h3>
+						<p>月销量123万笔，天猫超市</p>
+						<p class="money"><strong ><em class="price">35.6</em>元/200g</strong>  </p>
+					</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li class="span-12 span-6">
+			<a href="" class="">
+				<figure class="figure_content clearfix">
+					<div class="canvasImg"><canvas data-src="images/goods1.png"></canvas></div>
+					<figcaption>
+						<h3>[天猫超市]巷仔香脆海虾，即开即食用,休闲零食</h3>
+						<p>月销量13万笔，天猫超市</p>
+						<p class="money"><strong ><em class="price">25.6元</em>/250g</strong>  </p>
+					</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li class="span-12 span-6">
+			<a href="" class="">
+				<figure class="figure_content clearfix">
+					<div class="canvasImg"><canvas data-src="images/goods2.png"></canvas></div>
+					<figcaption>
+						<h3>[京东超市]巷仔香脆海虾，即开即食用,休闲零食</h3>
+						<p>月销量23万笔，京东超市</p>
+						<p class="money"><strong ><em class="price">15.6元</em>/100g</strong>  </p>
+					</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li class="span-12 span-6">
+			<a href="" class="">
+				<figure class="figure_content clearfix">
+					<div class="canvasImg"><canvas data-src="images/goods3.png"></canvas></div>
+					<figcaption>
+						<h3>[京东超市]巷仔香脆海虾，即开即食用,休闲零食</h3>
+						<p>月销量23万笔，京东超市</p>
+						<p class="money"><strong ><em class="price">55.6元</em>/500g</strong>  </p>
+					</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li class="span-12 span-6">
+			<a href="" class="">
+				<figure class="figure_content clearfix">
+					<div class="canvasImg"><canvas data-src="images/goods1.png"></canvas></div>
+					<figcaption>
+						<h3>[京东超市]巷仔香脆海虾，即开即食用,休闲零食</h3>
+						<p>月销量23万笔，京东超市</p>
+						<p class="money"><strong ><em class="price">55.6元</em>/500g</strong>  </p>
+					</figcaption>
+				</figure>
+			</a>
+		</li>
+		
+	</ul>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- 底部导航 -->
+<footer id="nav_footer" class="container-fluid">
+	<ul class="clearfix">
+		<li ><a href="index.html" ><span class="icon-index2"></span><span class="bottom_text">首页</span></a></li>
+		<li><a href="goodsLists.html" class="active"><span class="icon-shop-lists"></span><span class="bottom_text">商品列表</span></a></li>
+		<li><a href="shopCar.html"><span class="icon-shop-car"></span><span class="bottom_text">购物车</span></a></li>
+		<li><a href="user.html" ><span class="icon-user-center"></span><span class="bottom_text">个人中心</span></a></li>
+	</ul>
+</footer>
+
+
+<script src="js/libs/require.js" data-main="js/main/config_main/config_main"></script>
+</body>
+</html>

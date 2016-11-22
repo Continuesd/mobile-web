@@ -1,0 +1,43 @@
+.user_bottom{
+	background:#fff;
+	margin-top:2rem;
+	font-size:1.4rem;
+	margin-bottom:5rem;
+	li{
+		height:5rem;
+		text-indent:1rem;
+		border-bottom:1px solid #cecece;
+		a{
+			vertical-align:middle;
+			color:#9d9d9d;
+			&::after{
+				content:" ";
+				display:inline-block;
+				vertical-align:middle;
+				height:100%;
+			}
+		}
+		.icon-right-dir{
+			line-height:5rem;
+			margin-right:1rem;
+			float:right;
+		}
+		&:hover{
+			background:#ededed;
+		}
+		&.quit{
+			background-color: #28c728;
+			text-align:center;
+			margin-top:1rem;
+			@include border-radius(.5rem);
+		    background-image: -webkit-gradient(linear, left top, left bottom, from(#18b218), to(#28c728));
+		    background-image: -webkit-linear-gradient(top, #18b218, #28c728);
+		    background-image: linear-gradient(to bottom, #18b218, #28c728);
+		    a{
+		    	font-size:1.4rem;
+		    	color:white;
+
+		    }
+		}
+	}
+}

@@ -1,0 +1,126 @@
+.u-header{
+	box-shadow:0 1px 3px #ccc;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	 position: relative; 
+	 .uc_return{
+		position: relative;
+		 height: 46px; 
+	 	overflow: hidden;
+	 	.uc_return_r{
+	 		position: absolute; 
+	 		right: 12px; height: 46px;
+	 		width: 40px; 
+	 		line-height: 46px;
+	 		font-size: 1.5rem;
+	 	}
+		.uc_return_r a{
+			display: block; 
+			height: 46px;
+			color:#8b8b8b;
+		}
+		.uc_return_c{
+			float: left;
+			width: 100%;
+			color:#8b8b8b;
+			font-size:1.6rem;
+		}
+		.uc_return_l{
+			color:#8b8b8b;
+			position: absolute;
+	 		left: 12px;
+	  		height: 46px;
+	  		width: 40px;
+	  		font-size:1.2rem;
+	    	background: url(../images/return.png) no-repeat left center; 
+	    	background-size: 13px 21px;
+	    	cursor: pointer;
+		}
+	}
+}
+
+.logging{
+	ul{
+		margin: 22px 0; 
+		font-size: 1.4rem;
+		line-height: 23px;
+		li{
+			overflow: hidden;
+			 position: relative;
+			 margin:1rem;
+			s{
+				width: 24px;
+				height: 34px;
+				display:inline-block;
+				margin-right: 15px;
+				background: url(../images/head_gray.png) no-repeat 0 center;
+				background-size: 24px auto;
+				vertical-align: middle;
+			}
+			input{
+				border:1px solid #cecece;
+				@include border-radius(.5rem);
+				text-indent:1rem;
+				line-height: 34px;
+				font-size: 1.4rem;
+				width:85%;
+				outline:none;
+				// width:calc(100% - 50px);
+			}
+			&:nth-of-type(2) s{
+				background: url(../images/uc_logging_password.png) no-repeat center center; 
+				background-size: 18px auto;
+			}
+			s.warn{
+				position: absolute; 
+				right: 12px;
+				 background: url(../images/warn.png) no-repeat 0 center;
+				  background-size: 20px 20px; 
+				  margin-right: 0;
+			}
+
+		}
+	}
+	.register{
+		position: absolute; 
+		right: 10px;
+		cursor: pointer;
+		a{
+			color: #fff; 
+			font-size: 1.6rem;
+		}
+	}
+	.find_paw{
+		padding-left: 10px;
+		 font-size: 1.2rem;
+		 a{
+		 	color: #9c9c9c;
+		 }
+	}
+	span.current{
+		background: #cb4037; color: #fff;
+	}
+	.btn{
+		display: block; 
+		line-height: 46px;  
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#18b218), to(#28c728));
+	    background-image: -webkit-linear-gradient(top, #18b218, #28c728);
+	    background-image: linear-gradient(to bottom, #18b218, #28c728);
+	    border-radius: 3px; font-size: 1.6rem; text-align: center; 
+	    color: #fff;width:95%;margin:10px auto;
+	}
+	.quick_register{
+		padding: 0 .5rem;
+	
+		div{
+			border-top: 1px solid #eee;
+			 text-align: center;
+			 a{ 
+			 	color:#9c9c9c;
+			 	font-size: 1.4rem;
+			 }
+
+		}
+	}
+}

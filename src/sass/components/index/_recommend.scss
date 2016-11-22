@@ -1,0 +1,61 @@
+.recommend{
+	min-height:12rem;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	.container{
+		background:#fff;
+		margin:0 auto;
+		.recom_title{
+			font-size:18px;
+			padding:1rem 0 1rem 1rem;
+			border-bottom:1px solid #ccc;
+			margin-bottom:1rem;
+		}
+		@at-root .recom_today{
+			}
+			figure{
+				@include span(5.8);
+				
+				&:last-child{
+					float:right;
+				}
+				img{
+					display:block;
+					width:100%;
+
+				}
+				figcaption{
+					h3{
+						margin:1rem;
+						font-weight:600;
+						font-size:1.6rem;
+					}
+					img{
+						border-radius:25px;;
+						width:50px;
+						height:50px;
+						display:inline-block;
+						vertical-align:middle;
+					}
+					.name{
+						display:inline-block;
+						margin-left:1rem;
+						vertical-align:middle;
+					}
+				}
+			}
+			
+		}
+		.recom_more{
+			height:3rem;
+			margin-top:.5rem ;
+			line-height:3rem;
+			border-radius:.5rem;
+			text-align:center;
+			border:1px solid #cecece;
+			&:hover{
+				background:#f2f2f2;
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+ul,ol,body,dl,dt,dd,figure{
+	margin:0;
+	padding:0;
+}
+ul,ol{
+	list-style-type:none;
+}
+img{
+	border:none;
+	outline:none;
+}
+p{
+	margin:0;
+	letter-spacing:1px;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+h1{
+	margin:0;
+	padding:0;
+}
+@for $i from 2 through 6{
+	h#{$i}{
+		@extend h1;
+	}
+}

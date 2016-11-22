@@ -1,0 +1,43 @@
+.container-fluid{
+	background:#fff;
+	margin:0 auto;
+	@at-root .user_img{
+		text-align:center;
+		figure{
+			img{
+				border-radius:50%;
+				height:8rem;
+				width:8rem;
+			}
+		}
+	}
+	.user_extra{
+		text-align:center;
+		font-size:1.6rem;
+		padding-bottom:.5rem;
+		span{
+			display:inline-block;
+			height:3rem;
+			@include span(6);
+			&.span_right{
+				border-left:1px solid #ccc;
+			}
+		}
+		span::after{
+			content:" ";
+			display:inline-block;
+			height:100%;
+			vertical-align:middle;
+		}
+		i{
+			vertical-align:middle;
+			margin-right:.5rem;
+			font-size:2rem;
+		}
+		em{
+			vertical-align:top;
+			@include span(6);
+			font-weight:600;
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "mobile-web",
+  "version": "1.0.1",
+  "description": "web for mobile",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeqianxun/mobile-web.git"
+  },
+  "keywords": [
+    "mobile-web"
+  ],
+  "author": "yeqianxun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeqianxun/mobile-web/issues"
+  },
+  "homepage": "https://github.com/yeqianxun/mobile-web#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "run-sequence": "^1.2.2"
+  }
+}

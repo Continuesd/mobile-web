@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="format-detection" content="telephone=no"/>
+
+	<link rel="apple-touch-icon-precomposed"  href="iamges/*.jpg">
+	<link rel="apple-touch-startup-image" href="images/*.jpg"/>
+
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/swiper.css"/>
+	<title>移动前端购物车</title>
+</head>
+<body>
+<!-- 购物车头部 -->
+<header class="shopCar_header clearfix">
+	<div class="carTitle"><span class="icon-shop-car"></span>购物车</div>
+	<div class="share"><span class="icon-share"></span></div>
+	<div class="editAll">编辑全部</div>
+</header>
+<!-- 购物车列表 -->
+<section id="shopping_lists">
+	<ul>
+		<li class="lists_content">
+			<div class="content_top clearfix">
+				<div class="store_name"><span class="icon-dot-blank icon-title"><input type="radio"></span>御善坊旗舰店</div>
+				<div class="lists_opt"><span class="kaquan">领券</span><span class="edit do_edit"> 编辑</span></div>
+			</div>
+			<div class="content_bottom clearfix">
+				<div class="left_img">
+					<span class="icon-dot-blank selectBtn"><input type="radio" value="0"></span><img src="images/goods1.png" alt=""> 	
+				</div>
+				<div class="right_opt ">
+					<div class="descript">[天猫超市]巷仔香脆海虾，即开即食用,休闲零食,月销量13万笔，天猫超市</div>
+					<div class="info"><span class="money"><strong>¥25.6</strong></span><br/><span class="num">×1</span></div>	
+				</div>	
+
+				<div class="edit_content">
+					<div class="num_opt"><span class="icon-reduce"></span><input type="text" class="num" value="1"><span class="icon-add"></span>
+					</div>
+					<div class="delete">删除</div>
+				</div>			
+			</div>
+			<div class="content_bottom clearfix">
+				<div class="left_img">
+					<span class="icon-dot-blank selectBtn"><input type="radio" value="0"></span><img src="images/goods2.png" alt=""> 	
+				</div>
+				<div class="right_opt">
+					<div class="descript">[京东超市]忆江南正宗海虾，即开即食用，保证产品口味，纯天然无公害</div>
+					<div class="info"><span class="money"><strong>¥35.6</strong></span><br/><span class="num">×1</span></div>
+				</div>
+				<div class="edit_content">
+					<div class="num_opt"><span class="icon-reduce"></span><input type="text" class="num" value="1"><span class="icon-add"></span>
+
+					</div>
+					<div class="delete">删除</div>
+				</div>					
+			</div>
+
+
+		</li>
+		<li class="lists_content">
+			<div class="content_top clearfix">
+				<div class="store_name"><span class="icon-dot-blank icon-title"><input type="radio"></span>御善坊旗舰店</div>
+				<div class="lists_opt"><span class="kaquan">领券</span><span class="edit do_edit"> 编辑</span></div>
+			</div>
+			<div class="content_bottom clearfix">
+				<div class="left_img">
+					<span class="icon-dot-blank selectBtn"><input type="radio" value="0"></span><img src="images/goods1.png" alt=""> 	
+				</div>
+				<div class="right_opt ">
+					<div class="descript">[天猫超市]巷仔香脆海虾，即开即食用,休闲零食,月销量13万笔，天猫超市</div>
+					<div class="info"><span class="money"><strong>¥25.6</strong></span><br/><span class="num">×1</span></div>
+				</div>	
+				<div class="edit_content">
+					<div class="num_opt"><span class="icon-reduce"></span><input type="text" class="num" value="1"><span class="icon-add"></span>
+
+					</div>
+					<div class="delete">删除</div>
+				</div>				
+			</div>
+			
+		</li>
+		<li class="lists_content">
+			<div class="content_top clearfix">
+				<div class="store_name"><span class="icon-dot-blank icon-title"><input type="radio"></span>御善坊旗舰店</div>
+				<div class="lists_opt"><span class="kaquan">领券</span><span class="edit do_edit"> 编辑</span></div>
+			</div>
+			<div class="content_bottom clearfix">
+				<div class="left_img">
+					<span class="icon-dot-blank selectBtn"><input type="radio" value="0"></span><img src="images/goods1.png" alt=""> 	
+				</div>
+				<div class="right_opt ">
+					<div class="descript">[天猫超市]巷仔香脆海虾，即开即食用,休闲零食,月销量13万笔，天猫超市</div>
+					<div class="info"><span class="money"><strong>¥25.6</strong></span><br/><span class="num">×1</span></div>	
+				</div>	
+
+				<div class="edit_content">
+					<div class="num_opt"><span class="icon-reduce"></span><input type="text" class="num" value="1"><span class="icon-add"></span>
+					</div>
+					<div class="delete">删除</div>
+				</div>			
+			</div>
+			<div class="content_bottom clearfix">
+				<div class="left_img">
+					<span class="icon-dot-blank selectBtn"><input type="radio" value="0"></span><img src="images/goods2.png" alt=""> 	
+				</div>
+				<div class="right_opt">
+					<div class="descript">[京东超市]忆江南正宗海虾，即开即食用，保证产品口味，纯天然无公害</div>
+					<div class="info"><span class="money"><strong>¥35.6</strong></span><br/><span class="num">×1</span></div>
+				</div>
+				<div class="edit_content">
+					<div class="num_opt"><span class="icon-reduce"></span><input type="text" class="num" value="1"><span class="icon-add"></span>
+
+					</div>
+					<div class="delete">删除</div>
+				</div>					
+			</div>
+
+
+		</li>
+	</ul>
+</section>
+
+
+
+
+
+
+
+	<!-- 底部导航 -->
+<footer id="nav_footer" class="container-fluid">
+	<ul class="clearfix">
+		<li ><a href="index.html" ><span class="icon-index2"></span><span class="bottom_text">首页</span></a></li>
+		<li><a href="goodsLists.html"><span class="icon-shop-lists"></span><span class="bottom_text">商品列表</span></a></li>
+		<li><a href="shopCar.html" class="active"><span class="icon-shop-car"></span><span class="bottom_text">购物车</span></a></li>
+		<li><a href="user.html"><span class="icon-user-center"></span><span class="bottom_text">个人中心</span></a></li>
+	</ul>
+</footer>
+
+
+<script src="js/libs/require.js" data-main="js/main/config_main/config_main"></script>
+</body>
+</html>

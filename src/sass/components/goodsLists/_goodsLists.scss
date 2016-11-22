@@ -1,0 +1,57 @@
+#goodsLists{
+	min-height:20rem;
+	margin-bottom:6rem;
+	.goodsLists{
+		.span-12{
+			@include span(12);			
+			&:first-child{
+				.li_inner{
+					@include span(2.6);
+					text-align:center;
+					margin:.4rem;
+					background:#fff;
+					height:3rem;
+					line-height:3rem;
+				}
+			}
+			&:not(:first-child){
+				@include span(12);
+				padding:0;
+				
+				background:#fff;
+				margin-bottom:1rem;
+				.canvasImg{
+					@include span(4);
+					display:block;
+					min-height:8rem;
+					border:1px solid red;
+					padding:.5rem .5rem 0 .5rem;
+					canvas{
+						width:100%;
+						background:url("../images/loading.gif")no-repeat center center;
+
+					}
+				}
+				figcaption{
+					font-size:1.4rem;
+					@include span(8);
+					position:relative;
+					padding-top:.5rem;
+					.money{
+						// position:absolute;
+						// bottom:0rem;
+						// left:.5rem;
+						padding-top:1.8rem;
+						.price{
+							color:orange;
+							font-size:1.6rem;
+
+						}
+					}
+					
+				}
+			}
+
+		}
+	}
+}

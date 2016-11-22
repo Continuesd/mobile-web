@@ -1,0 +1,37 @@
+@import 
+	"compass"
+,	"susy"
+,	"normalize-version"
+,	"normalize/html5"
+,	"normalize/links"
+,	"normalize/base"
+;
+
+
+// variables.scss
+@import 
+	"variables/variables"
+;
+
+// base.scss
+@import 
+	"base/base-icon"
+,	"base/base-reset"
+,	"base/base-settings"
+;
+
+
+@import 
+	"components/index/header"
+,	"components/index/footer"
+,	"components/index/slide"
+,	"components/index/community"
+,	"components/index/recommend"
+,	"components/user/user-top"
+,	"components/user/user-bottom"
+,	"components/user/login"
+,	"components/goodsLists/goodsSearch"
+,	"components/goodsLists/goodsLists"
+,	"components/shopCar/shopCar-header"
+,	"components/shopCar/shopCar-list"
+;

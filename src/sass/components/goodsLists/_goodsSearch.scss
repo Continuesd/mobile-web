@@ -1,0 +1,176 @@
+.goods_search{
+	background:#fff;
+	.search_top{
+		font-size:1.4rem;
+		padding:0;
+		border-bottom:1px solid #eee;
+		@at-root .back_btn{
+			@include span(1.5);
+			text-align:center;
+			height:3rem;
+			cursor:pointer;
+			&::after{
+				content:" ";
+				display:inline-block;
+				vertical-align:middle;
+				height:100%;
+			}
+			.icon-back{
+				font-weight: bold;
+				font-size:2rem;
+				vertical-align:middle;
+			}
+		}
+		@at-root  .search_input{
+			@include span(7.5);
+			padding:0;
+			input[name="search_text"]{
+				height:3rem;
+				font-size:1.4rem;
+				text-indent:1rem;
+				width:100%;
+				padding:0;
+				border:none;
+				border-left:1px solid #eee;
+			}
+		}
+		@at-root  .search_btn{
+			@include span(1.5);
+			height:3rem;
+			text-align:center;
+			background:#465fa8;
+			cursor:pointer;
+			border-top-right-radius:1rem;
+			border-bottom-right-radius:1rem;
+			.icon-search{
+				vertical-align:middle;
+				font-size:2.4rem;
+				color:white;
+			}
+			&::after{
+				content:" ";
+				height:100%;
+				display:inline-block;
+				vertical-align:middle;
+			}
+		}
+		@at-root  .search_change{
+			@include span(1.5);
+			height:3rem;
+			cursor:pointer;
+			text-align:center;
+			.icon-list2,.icon-other{
+				vertical-align:middle;
+				font-size:2.4rem;
+			}
+			&::after{
+				content:" ";
+				height:100%;
+				display:inline-block;
+				vertical-align:middle;
+			}
+		}
+	}
+	@at-root .search_bottom{
+		.order_li{
+			@include span(3);
+			height:2rem;
+			text-align:center;
+			font-size:1.4rem;
+			line-height:2rem;
+			color:#9d9d9d;
+			cursor:pointer;
+			span{
+				font-size:1.2rem;
+			}
+			&.filter{
+				position:relative;
+				padding:0;
+				@at-root .filterContent{
+					position:absolute;
+					right:-24rem;
+					bottom:-38rem;
+					background:#fff;
+					height:38rem;
+					width:24rem;
+					border:1px solid red;
+					z-index:10;
+					.priceTitle,.brandTitle{
+						padding:.5rem;
+						text-align:left;
+						font-size:1.6rem;
+						font-weight:normal;
+					}
+					.price_content{
+						text-align:center;
+						padding-top:.5rem;
+						padding-bottom:2rem;
+						border-bottom:1px solid #eee;
+						input[name='smallVal'],input[name='bigVal']{
+							width:span(3);
+							height:2.5rem;
+							vertical-align:middle;
+							border:none;
+							text-align:center;
+							background:#eee;
+							border-radius:.5rem;
+						}
+						.priceRange{
+							width:span(3);
+							display:inline-block;
+							vertical-align:middle;
+							height:2.5rem;
+							margin-bottom:-3px;
+						}
+						.choiceList{
+							height:auto;
+							font-size:10px;
+							@include span(3.5);
+							margin:.4rem;
+							background:#eee;
+							border-radius:.5rem;
+						}
+					}
+					.brand_content{
+						border-bottom:1px solid #eee;
+						padding-bottom:1rem;
+						li{
+							@include span(4);
+							overflow:hidden;
+							height:3rem;
+							margin-top:.5rem;
+							img{
+								@include span(12);
+								line-height:3rem;
+							}
+						}
+					}
+					.filter_opt{
+						margin-top:3.9rem;
+						span{
+							vertical-align:middle;
+							height:3rem;
+							font-size:1.6rem;
+							text-align:center;
+							width:span(6);
+							display:inline-block;
+							&::after{
+								content:" ";
+								display:inline-block;
+								vertical-align:middle;
+								height:100%;
+							}
+						}
+						.reset{
+							background:#eee;
+						}
+						.ok{
+							background:orange;
+							color:#fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}

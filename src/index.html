@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" contetn="black"/>
+	<meta name="apple-touch-fullscreen" content="yes"/>
+	<meta name="format-detection" content="telephone=no"/>
+
+	<link rel="apple-touch-icon-precomposed" href="images/**.jpg">
+	<link rel="apple-touch-startup-image" href="iamges/*.jpg">
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" href="css/swiper.css"/>
+	<title>移动前端项目首页</title>
+</head>
+<body>
+<!-- 头部搜索区域 -->
+<div id="search_input">
+	<div class="search_box clearfix">
+		<div class="place_change"><span class="place_name">杭州</span><span class="place_icon"></span></div>
+		<div class="search_input"><input type="text" name="search_input" placeholder="请输入搜索的内容"/></div>
+		<div class="search_btn_header"><button type="button" name="search_btn"><span class="icon-search"></span></button></div>
+	</div>
+</div>
+
+
+<!-- Slide 区域 -->
+<section class="slide_box">
+	<div class="swiper-container" id="slide_banner">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	        	<img src="images/slide1.jpg" alt="">
+	        	
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/slide1.jpg" alt="">
+	        </div>
+	        <div class="swiper-slide">
+	        	<img src="images/slide1.jpg" alt="">
+	        </div>
+	    </div>
+			 <div class="swiper-pagination"></div>
+   </div>
+</section>
+<!-- 注册导航 -->
+<section class="banner_bottom ">
+	<div class="reg clearfix">
+		<div class="reg_content">
+			<h3>注册领取<span>新手礼包</span></h3>
+			<img src="images/icons/bag.jpg" alt="">
+		</div>
+		<div class="reg_btn"><button >注册领好礼</button></div>
+	</div>
+</section>
+<!-- 社区交流 -->
+<section class="community">
+	<div class="container clearfix">
+		<h3 class="title">社区交流</h3>
+		<ul class="comm_lists clearfix">
+			<li>
+			  <a href="">
+			  	<div class="comm_content">
+			  		<h3>户型改造</h3>
+			  		<p>搞定风水流线</p>
+			  	</div>
+				<img src="images/icons/hammer.png" alt="">
+			  </a>
+			</li>
+			<li>
+				<a href="">
+					<div class="comm_content">
+						<h3>专修攻略</h3>
+						<p>多块好省秘籍</p>
+					</div>
+					<img src="images/icons/bubble.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<div class="comm_content">
+						<h3>专修日记</h3>
+						<p>经验教训都有</p>
+					</div>
+					<img src="images/icons/pen.png" alt="">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<div class="comm_content">
+						<h3>你问我答</h3>
+						<p>专业设计师答疑</p>
+					</div>
+					<img src="images/icons/ques.png" alt="">
+				</a>
+			</li>
+		</ul>
+
+	</div>
+</section>
+
+<section class="recommend">
+	<div class="container">
+		<h3 class="recom_title">今日推荐</h3>
+		<div class="recom_today clearfix">
+			<figure>
+				<img src="images/recom1.png" alt="">
+				<figcaption>
+					<h3>139方简约三居</h3>
+					<p><img src="images/me.jpg" alt=""><span class="name">Jhon smith</span></p>
+				</figcaption>
+			</figure>
+			<figure>
+				<img src="images/recom2.png" alt="">
+				<figcaption>
+					<h3>89方北约风</h3>
+					<p><img src="images/me.jpg" alt=""><span class="name">jack </span></p>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="recom_more"><a href="">更多推荐>>></a></div>
+	</div>
+</section>
+
+
+<section class="excellent_topic">
+	<div class="container">
+		<h3 class="topic_title">精彩专题</h3>
+		<div class="topic clearfix">
+			<ul>
+				<li><a href=""><img src="images/riji.png" alt=""></a></li>
+				<li><a href=""><img src="images/meitu.png" alt=""></a></li>
+				<li><a href=""><img src="images/shouna.png" alt=""></a></li>
+				<li><a href=""><img src="images/piaochuang.png" alt=""></a></li>
+				<li><a href=""><img src="images/cunfang.png" alt=""></a></li>
+				<li><a href=""><img src="images/jiancai.png" alt=""></a></li>
+				<li><a href=""><img src="images/beijing.png" alt=""></a></li>
+				<li><a href=""><img src="images/tami.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+<!-- 底部导航 -->
+<footer id="nav_footer" class="container-fluid">
+	<ul class="clearfix">
+		<li ><a href="index.html" class="active"><span class="icon-index2"></span><span class="bottom_text">首页</span></a></li>
+		<li><a href="goodsLists.html"><span class="icon-shop-lists"></span><span class="bottom_text">商品列表</span></a></li>
+		<li><a href="shopCar.html"><span class="icon-shop-car"></span><span class="bottom_text">购物车</span></a></li>
+		<li><a href="user.html"><span class="icon-user-center"></span><span class="bottom_text">个人中心</span></a></li>
+	</ul>
+</footer>
+
+
+
+
+
+<script src="js/libs/require.js" data-main="js/main/config_main/config_main"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+$susy:(
+	global-box-sizing:$susy-box-sizing,
+	gutters:$susy-gutters,
+	columns:$susy-columns,
+	gutter-position:inside
+);
+
+@include border-box-sizing();
+
+html{
+	font-family:$global-font;
+	// line-height:1.5;
+	background:#f2f2f2;
+	font-size:62.5%;
+	overflow-x:hidden;
+
+}
+
+
+.container{
+	width:$container;
+	margin:0 auto;
+}
+.container-fluid{
+	width:$container-fluid;
+	margin:0 auto;
+}
+[class^='icon'],[class*='icon']{
+	font-size:16px;
+}
+.clearfix{
+	@include legacy-pie-clearfix();
+}
+.none{
+	display:none;
+}

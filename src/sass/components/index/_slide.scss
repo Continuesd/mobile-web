@@ -1,0 +1,64 @@
+.slide_box{
+	position:relative;
+	top:0;
+	left:0;
+	z-index:99;
+	width:95%;
+	margin:0 auto;
+	#slide_banner{
+		height:200px;
+		img{
+			height:200px;
+			width:100%;
+			border:none;
+		}
+	}
+}
+
+
+// banner_bottom
+.banner_bottom{
+	background:#fff;
+	margin: 0 auto;
+	width:95%;
+	.reg{
+		.reg_content{
+			@include span(8);
+			h3{
+				display:inline-block;
+				vertical-align:middle;
+				font-size:1.6rem;
+				letter-spacing: 1px;
+				span{
+					color:orange;
+				}
+			}
+			img{
+				vertical-align:middle;
+			}
+		}
+		.reg_btn{
+			@include span(4);
+			float:right;
+			height:5rem;
+			text-align:center;
+			&::after{
+				content:" ";
+				height:100%;
+				display:inline-block;
+				vertical-align:middle;
+			}
+			button{
+				@include border-radius(0.5rem);
+				vertical-align:middle;
+				height:3rem;
+				border:none;
+				outline:none;
+				color:#fff;
+				background:#ffc505;
+
+			}
+		
+		}
+	}
+}
